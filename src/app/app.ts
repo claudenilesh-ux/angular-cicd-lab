@@ -7,7 +7,6 @@ import { Component, computed, signal } from "@angular/core";
   styleUrl: "./app.css",
 })
 export class App {
-  readonly testProtection: number = "broken";
   readonly stages = [
     {
       number: "01",
